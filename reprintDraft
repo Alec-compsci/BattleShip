@@ -1,0 +1,11 @@
+#player location variables
+player1x = 0
+player1y = 0
+player2x = 0
+player2y = 0
+
+# the reprint function so far...
+def reprint():
+    tablesetup():
+    player1Input = input("placement")
+    player2Input = input("placement")
